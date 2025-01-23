@@ -1,0 +1,30 @@
+-- Praktikum EL3011 Arsitektur Sistem Komputer
+-- Modul : 3
+-- Percobaan : 1
+-- Tanggal : 19 Desember 2024
+-- Kelompok : 12
+-- Rombongan : D
+-- Nama (NIM) 1 : Stefen Sutandi (13222091)
+-- Nama (NIM) 2 : Chessy Anggraini Putri (13222084)
+-- Nama (NIM) 3 : Michael Reynaldi Tamara (13222055)
+-- Nama File : imemory.mif
+-- Deskripsi : Mengimplementasikan imemory.mif
+
+WIDTH=32;    -- number of bits of data per word 
+DEPTH=256;    -- the number of addresses 
+ADDRESS_RADIX=HEX; 
+DATA_RADIX=HEX; 
+CONTENT 
+BEGIN 
+ 00000000 : 8C080000; 
+ 00000004 : 8C090004; 
+ 00000008 : 11200008; 
+ 0000000C : 00000000; 
+ 00000010 : 21080001; 
+ 00000014 : 21290001; 
+ 00000018 : 08000004; 
+ 0000001C : 00000000; 
+ 00000020 : AC080000; 
+ 00000024 : 2002000A; 
+ 00000028 : 0000000C; 
+END; 
